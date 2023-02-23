@@ -74,6 +74,9 @@
 }
 .logo {
   padding: 0px 10px 0px 46px;
+  @include desktop {
+    padding: 0px 110px 0px 46px;
+  }
 }
 .menu {
   display: flex;
